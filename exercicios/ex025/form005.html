@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de formulário</h1>
+    <form action="cadastro.php" method="get">
+        <fieldset>
+            <legend>
+                Sexo
+            </legend>
+            <input type="radio" name="sexo" id="imas" value="M"><label for="imas"> Masculino</label> <br>
+            <input type="radio" name="sexo" id="ifem" checked value="F"><label for="ifem"> Feminino</label>
+        </fieldset>
+        <fieldset>
+            <legend>Jogos zerados</legend>
+                <input type="checkbox" name="rdr2" id="irdr2" checked> <label for="irdr2"> Red Dead Redemption 2</label><br>
+                <input type="checkbox" name="elden" id="ielden"><label for="ielden"> Elden Ring</label><br>
+                <input type="checkbox" name="sekiro" id="isekiro"><label for="isekiro"> Sekiro</label><br>
+                <input type="checkbox" name="tlou" id="itlou"><label for="itlou"> The Last of Us</label><br>
+                <input type="checkbox" name="lego" id="ilego"><label for="ilego"> Lego Batman</label>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
